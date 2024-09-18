@@ -1,0 +1,321 @@
+
+html{
+    background-image: linear-gradient(to right, dimgray,white);
+    scroll-behavior: smooth;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li a{
+    color: rgb(31, 26, 26);
+    text-decoration:none ;
+     padding:16px;  
+}
+ nav a:hover{
+    color:red;
+    text-decoration: underline;
+
+ } 
+ .line{
+
+    height: 5px;
+    width:100%;
+    background-color: black;
+    position: relative;
+    top:80px;
+    position: fixed;
+    z-index: 5;
+
+ }
+ .box{
+    height: 90px;
+    width:2000px;
+    position: fixed;
+    top:-10px;
+    background-image: linear-gradient(to right, dimgray,white);
+    z-index: 2; 
+ }
+
+nav{
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    z-index: 5;
+}
+#HOME{
+    position: relative;
+}
+
+.hello{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 80px;
+}
+img{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+ .image{  
+      border:20px solid #505050;
+    border-radius: 300px;
+    padding: 20px; 
+ }
+.i{
+    position: absolute;
+    top:300px ;
+    left: 300px;
+    font-size:100px ;
+    font-style: italic;
+}
+.siva{
+    position: absolute;
+    top: 400px;
+    left: 280px;
+    font-size: 120px;
+    font-style: italic;
+}
+.web{
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+.container1{
+    height:1100px;
+    width: 100%;
+    position: relative;
+    top: 1000px;
+
+}
+
+
+.ab{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 50px;
+    color:red;
+
+    
+}
+
+.container1 p{
+    position: absolute;
+    top:300px;
+    left: 300px;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, dimgray,white);
+    padding: 40px;
+
+}
+
+.container2{
+    height:1000px;
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    
+
+}
+
+.sk{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 50px;
+    color:red;
+}
+.ski{
+    position: absolute;
+    top: 300px;
+    left:350px;
+    font-size: 40px; 
+     border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, dimgray,white);
+    padding: 60px;
+    padding-right: 300px;
+}
+
+.container3{
+    height:1000px;
+    width: 100%;
+    position: relative;
+    top: 1000px;
+}
+.container3 h1{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    font-size: 50px;
+    color:red;
+
+}
+.container3 h2{
+    position: absolute;
+    top:250px;
+    left:300px;
+    font-size: 40px;
+    
+}
+.container3 h3{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    font-size: 40px;
+}
+.container3 ul{
+    position: absolute;
+    top:380px;
+    left:300px;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, dimgray,white);
+    padding: 60px;
+    padding-right: 300px;
+}
+.container4{
+    height:1000px;
+    width: 100%;
+    position: relative;
+    top: 1000px
+
+}
+.w1{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-size: 50px;
+    color:red;
+   
+}
+.p1{
+    top:100px;
+    left: -10px;
+     border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, dimgray,white);
+    padding:10px; 
+    transition: all 0.5s;
+
+}
+.p1:hover{
+    padding: 15px;
+}
+.w2{
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    font-size: 50px;
+    color: red;
+}
+.p2{
+    top:350px;
+    left: 490px ;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient (to right, dimgray,white);
+    padding:10px;
+    transition: all 0.5s;
+ 
+
+}
+.p2:hover{
+    padding: 15px;
+}
+.p3{
+    top:100px;
+    left: 2px ;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient (to right, dimgray,white);
+    padding:10px; 
+    opacity: 0s;
+    transition: all 0.5s;
+}
+.p3:hover{
+    padding: 15px;
+}
+
+.wp{
+    top:250px;
+    right:350px; 
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: linear-gradient (to right, dimgray,white);
+    padding:10px; 
+ 
+}
+.container5{
+    height:1100px;
+    width: 100%;
+    position: relative;
+    top: 1000px;
+}
+.c1{
+    position: absolute;
+    top: 100px;
+    left:300px;
+    font-size: 50px;
+    color:red;
+}
+.logo1{
+    left:300px;
+    top: 240px;
+}
+.logo2{
+    left:350px;
+    top: 470px;
+}
+.logo3{
+    left:350px;
+    top: 650px;
+}
+.contact{
+    position: absolute;
+    top: 290px;
+    left:500px;
+    font-size:40px ;
+}
+.email{
+    position: absolute;
+    top: 470px;
+    left:500px;
+    font-size:40px ;
+}
+.container6{
+    border: 1px solid black;
+    height:550px;
+    width: 1000px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,dimgray,white);
+    padding:10px;
+    
+}
+.linked{
+    position: absolute;
+    top: 650px;
+    left:500px;
+    font-size:40px ;
+}
+     
+
