@@ -216,12 +216,13 @@ img{
     border-radius: 50px;
     background-color: white;
     padding:10px; 
-    transition: all 0.5s;
+    transition: transform 0.5s ease;
     box-shadow: 5px 5px 5px color(srgb 0 0 0);
 
 }
 .p1:hover{
-    padding: 15px;
+    transform: scale(1.05);  
+    
 }
 .w2{
     position: absolute;
@@ -236,13 +237,13 @@ img{
     border-radius: 50px;
     background-color: white;
     padding:10px;
-    transition: all 0.5s;
-    box-shadow: 5px 5px 5px color(srgb 0 0 0);
+    transition: transform 0.5s ease;
+    box-shadow: 8px 8px 8px color(srgb 0 0 0);
  
 
 }
 .p2:hover{
-    padding: 15px;
+    transform: scale(1.05);
 }
 .p3{
     top:200px;
@@ -251,11 +252,11 @@ img{
     background-color: white;
     padding:10px; 
     opacity: 0s;
-    transition: all 0.5s;
+    transition: transform 0.5s ease;
     box-shadow: 5px 5px 5px color(srgb 0 0 0);
 }
 .p3:hover{
-    padding: 15px;
+    transform: scale(1.05);
 }
 
 .wp{
